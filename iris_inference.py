@@ -7,7 +7,7 @@ import streamlit as st
 import joblib
 
 # Load the trained KNN model
-loaded_classifier = joblib.load(r'C:\Users\j_asi\Documents\Maestria\Fundamentos IA\Actividad5\knn_model.pkl')
+loaded_classifier = joblib.load('knn_model.pkl')
 
 st.title('Iris Flower Classification')
 st.write('This is a simple Streamlit app for classifying Iris flowers.')
